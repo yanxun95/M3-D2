@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/823cd4dbf8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap");
+    </style>
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="body-container">
+        <div class="navbar-left">
+          <div class="container logo">
+            <i class="fab fa-spotify"></i>
+            <span class="spotify-font-logo"
+              >Spotify<span class="trademark">&reg;</span></span
+            >
+          </div>
+          <ul class="container nav-col">
+            <li class="container">
+              <i class="bi bi-house-door"></i>
+              <span class="col-font">Home</span>
+            </li>
+            <li class="container">
+              <i class="bi bi-search"></i>
+              <span class="col-font">Search</span>
+            </li>
+            <li class="container">
+              <i class="bi bi-list"></i>
+              <span class="col-font">Your Library</span>
+            </li>
+          </ul>
+          <div class="container nav-col second-nav-col">
+            <div class="container">
+              <i class="bi bi-plus-square-fill"></i>
+              <span class="col-font">Create Playlist</span>
+            </div>
+            <div class="container">
+              <i class="bi bi-heart"></i>
+              <span class="col-font">Liked Songs</span>
+            </div>
+          </div>
+          <div class="container">
+            <div class="container under-border"></div>
+          </div>
+          <div class="container nav-playlist">
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">Legends Never Die</span>
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">Justice</span>
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font"
+                >Divinely Uninspired To A Hellish Extent</span
+              >
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">Hall of Fame</span>
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">Life in Colour</span>
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">After Hours</span>
+              <i class="bi bi-people"></i>
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">The Off-Season</span>
+              <i class="bi bi-people"></i>
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">Bed</span>
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">Good Without</span>
+            </div>
+            <div class="container playlist-item">
+              <span class="nav-playlist-font">SOUR</span>
+            </div>
+          </div>
+        </div>
+        <div class="nav-left-bg"></div>
+        <div class="info-right">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="nav-container d-flex">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="fas fa-chevron-circle-left"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="fas fa-chevron-circle-right"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="user-profile">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle btn-user-profile"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="user-profile-pic">
+                      <i class="bi bi-person user-profile"></i>
+                    </div>
+                    <span class="user-profile-name">Superman</span>
+                  </button>
+                  <div
+                    class="dropdown-menu dropdown-menu-right profile"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item profile" href="#"
+                      ><span>Account</span>
+                      <span class="ms-auto"
+                        ><i class="bi bi-box-arrow-up-right"></i></span
+                    ></a>
+                    <a class="dropdown-item profile" href="#">Proifile</a>
+                    <a class="dropdown-item profile" href="login.html"
+                      >Log out</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="small-container good-morning">
+            <h2>Good morning</h2>
+            <div class="row mt-3 gm-playlist">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card" id="queen-album">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Bohemian Rhapsody</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67706c0000bebb163aeea48afe86ed0c55bfcd"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Lofi hip hop music</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e0231ad06cabcccb725fe014aa1"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Rituals</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e02c33615086cb90d36c33bcea5"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Angelic</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e02309b0cb81728d42a6dfb2b81"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Manic</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 gm-playlist">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e029e2f95ae77cf436017ada9cb"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Native</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e02e5347ad1af00f6f599dd4bf9"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Cozy Winter</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e023e0698e4ae5ffb82a005aeeb"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Legends Never Die</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e02e9ab1106d120c2d7bb3d4610"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name">Home</span>
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 gm-col">
+                <div class="card gm-card">
+                  <div class="gm-card-info">
+                    <div>
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e02df16d539f508603bfb1efe02"
+                        class="card-img gm-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="gm-info-right">
+                      <div class="card-body gm-info">
+                        <span class="gm-playlist-name"
+                          >F*UCK LOVE (SAVAGE)</span
+                        >
+                        <span class="gm-playlist-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="#1db954"
+                            class="bi bi-play-circle-fill gm"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-container">
+            <div class="heading-see-all">
+              <h4 class="playlist-area-title">Stimulate your mind</h4>
+              <span class="see-all">SEE ALL</span>
+            </div>
+            <div class="row mt-2 big-playlist-row">
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/f52eb414473d024bcd8edf24ba8787a4cbdb0059"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">
+                      Weekly Motivation by Ben Lionel Scott
+                    </h5>
+                    <span class="big-playlist-name">Ben Lionel Scott</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/1b0e5cdd89efe38885bf25cc5aa9ff94feef9edb"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">StarTalk Radio</h5>
+                    <span class="big-playlist-name">Neil deGrasse Tyson</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/b01d89d740d3275d16082b5c5e597b12881bec26"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Philosophize This!</h5>
+                    <span class="big-playlist-name">Stephen West</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/96b8b3d5b7c1a5ae952c7489406602539ce651c8"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">TED Talks Daily</h5>
+                    <span class="big-playlist-name">TED</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/ab6765630000ba8a1c639dcaa5e374592d6a416f"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Stuff You Should Know</h5>
+                    <span class="big-playlist-name">iHeartRadio</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/702caecf2b2f973773c9248b064282ab76e26fa9"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Huberman Lab</h5>
+                    <span class="big-playlist-name">Dr. Andrew Huberman</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/ab6765630000ba8a1a4ab3da3f7918225bfe7a4a"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Freakonomics Radio</h5>
+                    <span class="big-playlist-name"
+                      >Freakonomics Radio + Stitcher</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/910b5ee2b7a25d8577717bfc1443dc5f162bfbfd"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">
+                      Making Sense with Sam Harris
+                    </h5>
+                    <span class="big-playlist-name">Sam Harris</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/f21ebc93c8d90f2ee524c6e28e9870fee0101725"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Duolingo Spanish Podcast</h5>
+                    <span class="big-playlist-name">Duolingo</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist">
+                  <img
+                    src="https://i.scdn.co/image/e3182a15ff8ad715cfe1c05a63c82cff15bbe7dd"
+                    class="card-img-top big-playlist-img"
+                    alt="..."
+                  />
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Hello Internet</h5>
+                    <span class="big-playlist-name"
+                      >CGP Grey & Brady Haran</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-container">
+            <div class="heading-see-all">
+              <h4 class="playlist-area-title">Recently played</h4>
+              <span class="see-all">SEE ALL</span>
+            </div>
+            <div class="row mt-2 big-playlist-row">
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius" id="queen">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://strangeordinaryblog.files.wordpress.com/2018/05/queen-band-borhap.jpg?w=640"
+                      class="card-img-top big-playlist-img-no-radius artist"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Queen</h5>
+                    <span class="big-playlist-name">Artist</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e02bf97df0f1dc00ec45989cc59"
+                      class="card-img-top big-playlist-img-no-radius"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Bedtime Stoties Pt.3</h5>
+                    <span class="big-playlist-name">brillion.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e0204e60e25cac2cd2fcecb81bd"
+                      class="card-img-top big-playlist-img-no-radius"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">4 Am. Study Session</h5>
+                    <span class="big-playlist-name">Various Artists</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab67616100005174012b37d6dec8872b18524f78"
+                      class="card-img-top big-playlist-img-no-radius artist"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Khalid</h5>
+                    <span class="big-playlist-name">Artist</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab67616100005174a217ab14daaf481033a8a5ff"
+                      class="card-img-top big-playlist-img-no-radius artist"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">OneRepublic</h5>
+                    <span class="big-playlist-name">Artist</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e02f817f90531b8b396b370ab0d"
+                      class="card-img-top big-playlist-img-no-radius"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Wide-Eyed</h5>
+                    <span class="big-playlist-name">Said The Sky</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab67706f0000000365af49474d91827160b56b27"
+                      class="card-img-top big-playlist-img-no-radius"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Alone Again</h5>
+                    <span class="big-playlist-name"
+                      >Being alone (again) can be tough, bet theese songs will
+                      keep you company.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e02fb803b8778061da4c037e96a"
+                      class="card-img-top big-playlist-img-no-radius"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">glass</h5>
+                    <span class="big-playlist-name">nekoi</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e027ede143efde1cd87b9d09dc4"
+                      class="card-img-top big-playlist-img-no-radius"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">From the Outside</h5>
+                    <span class="big-playlist-name">Creative Self</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+                  big-play-list-col
+                "
+              >
+                <div class="card big-playlist-no-border-radius">
+                  <div class="big-playlist-with-btn-play">
+                    <img
+                      src="https://i.scdn.co/image/ab6761610000517446863e980be7ea756332481f"
+                      class="card-img-top big-playlist-img-no-radius artist"
+                      alt="..."
+                    />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="bi bi-play-circle-fill play-with-animation"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="card-body big-card-body">
+                    <h5 class="big-playlist-title">Lauv</h5>
+                    <span class="big-playlist-name">Artist</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container friend-list">
+          <div class="friend-activity">
+            <h5>Friend activity</h5>
+            <i class="bi bi-person-plus btn-add-friend"></i>
+          </div>
+
+          <div class="all-friend">
+            <div class="list-of-friend">
+              <div class="list-of-friend-img-col">
+                <img
+                  src="https://m.media-amazon.com/images/I/61xwPqmQqWL._AC_SS450_.jpg"
+                  class="list-of-friend-img"
+                  alt="..."
+                />
+              </div>
+              <div class="list-of-friend-info">
+                <span class="friend-name"><strong>Batman</strong></span>
+                <span>Batman &bull; Superman</span>
+                <div>
+                  <i class="bi bi-record-circle"></i>
+                  <span>Justice league</span>
+                </div>
+              </div>
+              <div class="list-of-friend-playing-days">
+                <i class="bi bi-bar-chart-fill"></i>
+              </div>
+            </div>
+
+            <div class="list-of-friend">
+              <div class="list-of-friend-img-col">
+                <img
+                  src="https://i1.sndcdn.com/artworks-000667496170-isha5h-t500x500.jpg"
+                  class="list-of-friend-img"
+                  alt="..."
+                />
+              </div>
+              <div class="list-of-friend-info">
+                <span class="friend-name"><strong>Milos</strong></span>
+                <span>Banana &bull; Apple</span>
+                <div>
+                  <i class="bi bi-record-circle"></i>
+                  <span>Apple pen</span>
+                </div>
+              </div>
+              <div class="list-of-friend-playing-days">2 d</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="install-app">
+        <i class="bi bi-arrow-down-circle"></i>
+        <span>Install App</span>
+      </div>
+
+      <div class="now-playing-bar">
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <div class="current-song-col">
+              <div class="current-song-info">
+                <div class="current-song-img-col">
+                  <img
+                    src="https://i.insider.com/5a85ff4dd0307223008b46ed?width=600&format=jpeg&auto=webp"
+                    alt=""
+                    class="current-song-img"
+                  />
+                </div>
+                <div class="current-song">
+                  <span class="current-song-name">Happier</span>
+                  <span class="current-song-artist">Ed Sheeran</span>
+                </div>
+                <div class="current-song-icon">
+                  <i class="bi bi-heart"></i>
+                  <i class="bi bi-pip pip-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="current-playing-col">
+              <div class="current-playing-info">
+                <div class="current-playing-icon">
+                  <div class="current-playing-icon-left">
+                    <i class="bi bi-shuffle"></i>
+                    <i class="fas fa-step-backward"></i>
+                  </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="white"
+                    class="bi bi-play-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                    />
+                  </svg>
+                  <div class="current-playing-icon-right">
+                    <i class="fas fa-step-forward"></i>
+                    <i class="bi bi-arrow-repeat"></i>
+                  </div>
+                </div>
+                <div class="current-playing-progress">
+                  <span class="current-playing-time">0:00</span>
+                  <div class="progress playing">
+                    <div
+                      class="progress-bar playing"
+                      role="progressbar"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <span class="current-playing-time">3:48</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="current-volume-col">
+              <div class="current-volume-info">
+                <i class="bi bi-list"></i>
+                <i class="bi bi-laptop"></i>
+                <i class="bi bi-volume-up"></i>
+                <div class="progress volume">
+                  <div
+                    class="progress-bar volume"
+                    role="progressbar"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <i class="bi bi-arrows-angle-expand"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

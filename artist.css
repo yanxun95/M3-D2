@@ -1,0 +1,23 @@
+.songrowbackground:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/* // Set border-radius on the top-left and bottom-left of the first table data on the table row */
+td:first-child,
+th:first-child {
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+/* // Set border-radius on the top-right and bottom-right of the last table data on the table row */
+td:last-child,
+th:last-child {
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 100%;
+  }
+}
